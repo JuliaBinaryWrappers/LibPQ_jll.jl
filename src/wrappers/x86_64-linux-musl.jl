@@ -2,52 +2,15 @@
 export LIBPQ_HANDLE
 
 using OpenSSL_jll
-## Global variables
-PATH = ""
-LIBPATH = ""
-LIBPATH_env = "LD_LIBRARY_PATH"
-LIBPATH_default = ""
-
-# Relative path to `LIBPQ_HANDLE`
-const LIBPQ_HANDLE_splitpath = ["lib", "libpq.so"]
-
-# This will be filled out by __init__() for all products, as it must be done at runtime
-LIBPQ_HANDLE_path = ""
-
-# LIBPQ_HANDLE-specific global declaration
-# This will be filled out by __init__()
-LIBPQ_HANDLE_handle = C_NULL
-
-# This must be `const` so that we can use it with `ccall()`
-const LIBPQ_HANDLE = "libpq.so.5"
-
-
-"""
-Open all libraries
-"""
+JLLWrappers.@generate_wrapper_header("LibPQ")
+JLLWrappers.@declare_library_product(LIBPQ_HANDLE, "libpq.so.5")
 function __init__()
-    global artifact_dir = abspath(artifact"LibPQ")
+    JLLWrappers.@generate_init_header(OpenSSL_jll)
+    JLLWrappers.@init_library_product(
+        LIBPQ_HANDLE,
+        "lib/libpq.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
 
-    # Initialize PATH and LIBPATH environment variable listings
-    global PATH_list, LIBPATH_list
-    # From the list of our dependencies, generate a tuple of all the PATH and LIBPATH lists,
-    # then append them to our own.
-    foreach(p -> append!(PATH_list, p), (OpenSSL_jll.PATH_list,))
-    foreach(p -> append!(LIBPATH_list, p), (OpenSSL_jll.LIBPATH_list,))
-
-    global LIBPQ_HANDLE_path = normpath(joinpath(artifact_dir, LIBPQ_HANDLE_splitpath...))
-
-    # Manually `dlopen()` this right now so that future invocations
-    # of `ccall` with its `SONAME` will find this path immediately.
-    global LIBPQ_HANDLE_handle = dlopen(LIBPQ_HANDLE_path)
-    push!(LIBPATH_list, dirname(LIBPQ_HANDLE_path))
-
-    # Filter out duplicate and empty entries in our PATH and LIBPATH entries
-    filter!(!isempty, unique!(PATH_list))
-    filter!(!isempty, unique!(LIBPATH_list))
-    global PATH = join(PATH_list, ':')
-    global LIBPATH = join(vcat(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)]), ':')
-
-    
+    JLLWrappers.@generate_init_footer()
 end  # __init__()
-
