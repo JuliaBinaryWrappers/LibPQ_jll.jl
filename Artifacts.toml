@@ -1,143 +1,143 @@
 [[LibPQ]]
 arch = "aarch64"
-git-tree-sha1 = "782d8514f2e76e440d31453458c9ad38d9944582"
+git-tree-sha1 = "8b5189ecb07fc486eb804fa85cf6904ca4ce52ae"
 os = "macos"
 
     [[LibPQ.download]]
-    sha256 = "880dd366a6f2734d498650a9da36a5b1ab04f0b8c5af079f6f26c5f26a738d9a"
-    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v14.3.0+1/LibPQ.v14.3.0.aarch64-apple-darwin.tar.gz"
+    sha256 = "10fb982ec5000462a9730d804c82751964f187f3af664a333b4c903141e7e9bc"
+    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v16.0.0+0/LibPQ.v16.0.0.aarch64-apple-darwin.tar.gz"
 [[LibPQ]]
 arch = "aarch64"
-git-tree-sha1 = "ca05da1d04019d6a91734c9a1b93af8a1d204552"
+git-tree-sha1 = "e8d0c29f0c3d945b6d165e18dbd372560f0001db"
 libc = "glibc"
 os = "linux"
 
     [[LibPQ.download]]
-    sha256 = "0874c2f18a6f8c1cc6df6e2c0eb3ca334ba20948e78e45b5c480280958f4878f"
-    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v14.3.0+1/LibPQ.v14.3.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "6d54af7fc55d1952747afe915c16948db931ac31e2bbebdb630dc5af2441272d"
+    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v16.0.0+0/LibPQ.v16.0.0.aarch64-linux-gnu.tar.gz"
 [[LibPQ]]
 arch = "aarch64"
-git-tree-sha1 = "fa8b199fbe3c1150567979393654d5eeb671dcad"
+git-tree-sha1 = "07f5a6e815b4904b9b0007f85c9198d04f9f6ffb"
 libc = "musl"
 os = "linux"
 
     [[LibPQ.download]]
-    sha256 = "ec7b053fcf44ebc2706bfc3f42f50df65c1695d8e7deeb3d9700289bfeeb3aee"
-    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v14.3.0+1/LibPQ.v14.3.0.aarch64-linux-musl.tar.gz"
+    sha256 = "d926b3a5a89a77bdfc5ff32c0d7076a7280d8c335ecb11159f745bc2a7f07366"
+    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v16.0.0+0/LibPQ.v16.0.0.aarch64-linux-musl.tar.gz"
 [[LibPQ]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "59c8943df87182aff79d453acb616917b50d3504"
+git-tree-sha1 = "0882b1f59cb31d903c07a11c410d1df8c78e7e89"
 libc = "glibc"
 os = "linux"
 
     [[LibPQ.download]]
-    sha256 = "ab2ec22afcdfdc38ea3f4add99233593d435c52d462674793145b0536bd98abd"
-    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v14.3.0+1/LibPQ.v14.3.0.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "46cdc283a8517c21ec7d2386832863b383bf794aa8b941d737fa6bf7b0f4689a"
+    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v16.0.0+0/LibPQ.v16.0.0.armv6l-linux-gnueabihf.tar.gz"
 [[LibPQ]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "2c9194a9522be540a08daf4433206dfc740ddf0b"
+git-tree-sha1 = "3b3d051de1254ce9471bacbd296b43fea63b8d00"
 libc = "musl"
 os = "linux"
 
     [[LibPQ.download]]
-    sha256 = "cc6295e0135e65db0eaeebc1fabd4c54e97e6b4dd829fa784778ccf187e30564"
-    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v14.3.0+1/LibPQ.v14.3.0.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "94be9844b6474a8cf346678169f98ef2490501b7fdd3fbab6e018c9a8f3be3f8"
+    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v16.0.0+0/LibPQ.v16.0.0.armv6l-linux-musleabihf.tar.gz"
 [[LibPQ]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "b0ff2c4e174d42362cd5874a9ca94b37cb46873b"
+git-tree-sha1 = "ae5b732ebcb480646ec730f939e5ebfeeff5363f"
 libc = "glibc"
 os = "linux"
 
     [[LibPQ.download]]
-    sha256 = "c988d9b8284e47d860b4e0fc4cf5ecca915ffc61f989dd7f786169f1e7de9d4e"
-    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v14.3.0+1/LibPQ.v14.3.0.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "0c8f35da6ab9e8eb50e2c44bfdb5904f671c6fd8d3c413eb68e32e99d39c52fb"
+    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v16.0.0+0/LibPQ.v16.0.0.armv7l-linux-gnueabihf.tar.gz"
 [[LibPQ]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "9421cf3165ac1eec240014dc50c7381dcfd604ee"
+git-tree-sha1 = "a9b5108ec48666e8604e9b2a52293402989c878e"
 libc = "musl"
 os = "linux"
 
     [[LibPQ.download]]
-    sha256 = "9d3fd141b32d250d04dc49c42ad58f5c543a0e91d2fe791c0f493e59b9fac275"
-    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v14.3.0+1/LibPQ.v14.3.0.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "c4c29b77a940641dfc5197c1d6460dfb5edb51b4b7292986c277e2cc3091db13"
+    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v16.0.0+0/LibPQ.v16.0.0.armv7l-linux-musleabihf.tar.gz"
 [[LibPQ]]
 arch = "i686"
-git-tree-sha1 = "aab79f5c07ef9e43dc8a9a82ac4b4ccf629c6fb7"
+git-tree-sha1 = "0ec5a8b89049f4d831820955fe92eb1e48fb917b"
 libc = "glibc"
 os = "linux"
 
     [[LibPQ.download]]
-    sha256 = "da811a61a3033a6f763b64f988de3c79bfae51ca8d142291c62886211233077e"
-    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v14.3.0+1/LibPQ.v14.3.0.i686-linux-gnu.tar.gz"
+    sha256 = "3d916b266867fc376a2bb9529dae8eef9c57626716bd26d808ccf5d6cb8ca191"
+    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v16.0.0+0/LibPQ.v16.0.0.i686-linux-gnu.tar.gz"
 [[LibPQ]]
 arch = "i686"
-git-tree-sha1 = "3277ee2099226054a6439d1d0136cc6957127791"
+git-tree-sha1 = "5d04a3ee3cd4c4588020da813dc17e82a0d8eb43"
 libc = "musl"
 os = "linux"
 
     [[LibPQ.download]]
-    sha256 = "9e9fd152e45e7db4b69a1f2c4954866d53ac724f4d017e433d207c318f8377db"
-    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v14.3.0+1/LibPQ.v14.3.0.i686-linux-musl.tar.gz"
+    sha256 = "34cc57873616955387bac27cd5e1daabbeb620686d8b5167477285a5ab42e6a4"
+    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v16.0.0+0/LibPQ.v16.0.0.i686-linux-musl.tar.gz"
 [[LibPQ]]
 arch = "i686"
-git-tree-sha1 = "d0f090b96b65d661e813c5baf5bb77592e23a854"
+git-tree-sha1 = "1f5c9695a9c51f244eb7707dd7e044f2aad2a0af"
 os = "windows"
 
     [[LibPQ.download]]
-    sha256 = "aa7c4d725ee34ecbab67a295963c7eddf5b5d5b81a57bd44feb702726ae13f9c"
-    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v14.3.0+1/LibPQ.v14.3.0.i686-w64-mingw32.tar.gz"
+    sha256 = "25155ea473acc2eb50b0abf232a132a3ca439774f7e0f9673f6d129a3e554b6d"
+    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v16.0.0+0/LibPQ.v16.0.0.i686-w64-mingw32.tar.gz"
 [[LibPQ]]
 arch = "powerpc64le"
-git-tree-sha1 = "14bbe04c55a3782143f1d2c2ad22222ab764bddd"
+git-tree-sha1 = "f90181bf3fca136d955bf3207114e3c181f1d06f"
 libc = "glibc"
 os = "linux"
 
     [[LibPQ.download]]
-    sha256 = "0b1ecb80bd420fe8b5fc60dbc2497ba042ec14ec2e0c7ddc660b3f31b1a05b99"
-    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v14.3.0+1/LibPQ.v14.3.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "6dcfb946594926c813b6155cb785cf7f8ecf681c7dca45d6e6f0156ef99f6950"
+    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v16.0.0+0/LibPQ.v16.0.0.powerpc64le-linux-gnu.tar.gz"
 [[LibPQ]]
 arch = "x86_64"
-git-tree-sha1 = "c3a41fa4cf69197f69aa1dc2ef09b62845f45e66"
+git-tree-sha1 = "ab6ea970c664b66676954540170185b0232124ef"
 os = "macos"
 
     [[LibPQ.download]]
-    sha256 = "aba8241b0858b6419b7cc75c2caf1432a6b2f1144bed3eba3c4befd95b9fed4e"
-    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v14.3.0+1/LibPQ.v14.3.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "9e64f382278e859d216a63fe49fa26d8ce3f5cc088e68dad55005ae9723cb6d6"
+    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v16.0.0+0/LibPQ.v16.0.0.x86_64-apple-darwin.tar.gz"
 [[LibPQ]]
 arch = "x86_64"
-git-tree-sha1 = "b89b9ae1e6ebbe1fe6561c490a5b1e1285d12a6e"
+git-tree-sha1 = "15e3fb0a8b4851546e9f136615fac621b5625852"
 libc = "glibc"
 os = "linux"
 
     [[LibPQ.download]]
-    sha256 = "dfcdfa57e284ffcfca215ba1d132e9fb4fabd922b8bdf06333570e98ae3aa708"
-    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v14.3.0+1/LibPQ.v14.3.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "4e5a9888e761d79c294d5929d5c40f51ada250ea1da7b468361111826adf03ce"
+    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v16.0.0+0/LibPQ.v16.0.0.x86_64-linux-gnu.tar.gz"
 [[LibPQ]]
 arch = "x86_64"
-git-tree-sha1 = "05f841923787e92071d472dfbf02c310a9eca31c"
+git-tree-sha1 = "075be38ed5e269c8d4aa70e51868454503de1180"
 libc = "musl"
 os = "linux"
 
     [[LibPQ.download]]
-    sha256 = "84c5ac3ec2234a1b1bb63391096d32f2fd8f2c59d6da44388b6040c001772477"
-    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v14.3.0+1/LibPQ.v14.3.0.x86_64-linux-musl.tar.gz"
+    sha256 = "832dd13872d15e0dac832763aea537e68e7d8423c25b2a7bed8e3c253362fef7"
+    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v16.0.0+0/LibPQ.v16.0.0.x86_64-linux-musl.tar.gz"
 [[LibPQ]]
 arch = "x86_64"
-git-tree-sha1 = "c7c179b0f4723a0b94fbb0df2ba2eac6bad86add"
+git-tree-sha1 = "67b07a92a260de1fe4df4089cade2b646a8032b7"
 os = "freebsd"
 
     [[LibPQ.download]]
-    sha256 = "509c91dfa270fb7ae3aad7202bd65673bb7dc14dabde056a8bce279fcb9a26ec"
-    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v14.3.0+1/LibPQ.v14.3.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "ff7439d86adce544bcaeb2787d31256ca138dc20fdb86c5c71f5f071738017e7"
+    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v16.0.0+0/LibPQ.v16.0.0.x86_64-unknown-freebsd.tar.gz"
 [[LibPQ]]
 arch = "x86_64"
-git-tree-sha1 = "bcdd265e21bd7089238f661440be60aed9e9e696"
+git-tree-sha1 = "5edb50ee4c7bbf82bb2d48c00a10f5360ec09ead"
 os = "windows"
 
     [[LibPQ.download]]
-    sha256 = "ed1142ecddf007f7b7d8fae719ec396075e25019f8a76f51bbc8ed409b2631be"
-    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v14.3.0+1/LibPQ.v14.3.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "6c8ffe3a12c98787abee86ef53a9cb30af57e6c8c1a55a305b787a044c6eb641"
+    url = "https://github.com/JuliaBinaryWrappers/LibPQ_jll.jl/releases/download/LibPQ-v16.0.0+0/LibPQ.v16.0.0.x86_64-w64-mingw32.tar.gz"

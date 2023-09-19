@@ -2,10 +2,12 @@
 export LIBPQ_HANDLE
 
 using OpenSSL_jll
+using ICU_jll
+using Zstd_jll
 JLLWrappers.@generate_wrapper_header("LibPQ")
 JLLWrappers.@declare_library_product(LIBPQ_HANDLE, "libpq.dll")
 function __init__()
-    JLLWrappers.@generate_init_header(OpenSSL_jll)
+    JLLWrappers.@generate_init_header(OpenSSL_jll, ICU_jll, Zstd_jll)
     JLLWrappers.@init_library_product(
         LIBPQ_HANDLE,
         "bin\\libpq.dll",

@@ -2,13 +2,15 @@
 export LIBPQ_HANDLE
 
 using OpenSSL_jll
+using ICU_jll
+using Zstd_jll
 JLLWrappers.@generate_wrapper_header("LibPQ")
 JLLWrappers.@declare_library_product(LIBPQ_HANDLE, "@rpath/libpq.5.dylib")
 function __init__()
-    JLLWrappers.@generate_init_header(OpenSSL_jll)
+    JLLWrappers.@generate_init_header(OpenSSL_jll, ICU_jll, Zstd_jll)
     JLLWrappers.@init_library_product(
         LIBPQ_HANDLE,
-        "lib/libpq.5.14.dylib",
+        "lib/libpq.5.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
